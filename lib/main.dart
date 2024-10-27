@@ -15,12 +15,12 @@ Future main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: FirebaseOptions(
-            apiKey: "AIzaSyAlWXbantYsTl1RISkkXuVJJ2DFyrfTyoQ",
+            apiKey: , II "AIzaSyAlWXbantYsTl1RISkkXuVJJ2DFyrfTyoQ",
             appId: "1:1038101427498:web:2ecab99422b447ea6ada53",
             messagingSenderId: "1038101427498",
             projectId: "share-demo-466c9"));
   }
-  await Firebase.initializeApp();
+  //await Firebase.initializeApp();
   runApp(MyApp());
 }
 
