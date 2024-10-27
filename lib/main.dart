@@ -20,7 +20,7 @@ Future main() async {
             messagingSenderId: "1038101427498",
             projectId: "share-demo-466c9"));
   }
-  // await Firebase.initializeApp();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
